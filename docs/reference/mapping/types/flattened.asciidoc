@@ -125,7 +125,7 @@ specify the <<mapping-store, `store`>> parameter in the mapping.
 ==== Retrieving flattened fields
 
 Field values and concrete subfields can be retrieved using the 
-<<search-fields-param,fields parameter>>. content. Since the `flattened` field maps an 
+<<search-fields-param,fields parameter>>. Since the `flattened` field maps an 
 entire object with potentially many subfields as a single field, the response contains
 the unaltered structure from `_source`.
 
